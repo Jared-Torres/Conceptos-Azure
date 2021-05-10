@@ -10,6 +10,7 @@ Cree a su ritmo: Tiene opciones. Si mantiene un compromiso con el código abiert
 Opere en el entorno híbrido sin problemas: ya sea en el entorno local, en la nube o en el entorno perimetral, le apoyaremos donde esté. Integre y administre los entornos con herramientas y servicios diseñados para una solución de nube híbrida.<br><br>
 Confíe en la nube: obtenga seguridad desde el principio, respaldada por un equipo de expertos, y un cumplimiento proactivo de confianza para las empresas consolidadas, los gobiernos y las nuevas empresas.
 
+
 ><b>¿Qué es Azure Portal?</b>
 Azure Portal es una consola unificada basada en web que puede administrar la suscripción de Azure mediante una interfaz gráfica de usuario. Puede:<br>
 Compile, administre y supervise todo, desde aplicaciones web sencillas hasta complejas implementaciones en la nube.<br><br>
@@ -34,10 +35,30 @@ Escalar a medida que cambien las necesidades empresariales.
 Confiabilidad, Escalabilidad, Elasticidad, Agilidad, Distribucion geografica, Recuperacion ante desastres.
 
 ><b>Modelos de servicio en la nube</b><br>
-Estos modelos definen los diferentes niveles de responsabilidad entre proveedor e inquilino.<br>
-IaaS, este modelo es lo mas parecido a la administracion de servidores, El proveedor mantiene el hardware pero el mantenimiento del sistema y la configuracion de la red es responsabilidad del inquilino.<br><br>
-PaaS, este modelo es un entrono hospedaje adminstrado, el proveedor de servicios administra las maquinas virtuales y los recursos de red pero el inquilino implementa sus aplicaciones en el entorno de hospedaje, aqui los desarrolladores pueden cargas sus apcliaciones web.<br><br>
-SaaS, en este modelo el proveedor de servicios en la nube adminstra todos los aspectos dek entorno de la aplicacion, el inquilino solo necesita proporcionar datos a la aplicacion administrada por el proveedor, por ejemplo Office 365.
+Estos modelos definen los diferentes niveles de responsabilidad entre proveedor e inquilino.<br><br>
+<b>IaaS</b>, este modelo es lo mas parecido a la administracion de servidores, El proveedor mantiene el hardware pero el mantenimiento del sistema y la configuracion de la red es responsabilidad del inquilino.<br>
+Objetivo: Su objetivo es ofrecer un control completo sobre el hardware que ejecuta la aplicacion. En vez de comprar hardware lo alquilas<br>
+Ventajas: Sin gastos de capital (CapEx).<br>
+Agilidad, se pueden configurar las aplicaciones con rapidez y desaprovionarlas cuando sea necesario.<br>
+Administracion.<br>
+Aptitudes, no se requieren conocimientos tecnicos avanzados para implementar y usar una nube publica.<br>
+Flexibilidad. IaaS es el servicio en la nube más flexible, ya que se dispone de control para configurar y administrar el hardware que ejecuta una aplicación<br><br>
+<b>PaaS</b>, este modelo es un entorno hospedaje administrado, el proveedor de servicios administra las maquinas virtuales y los recursos de red pero el inquilino implementa sus aplicaciones en el entorno de hospedaje, aqui los desarrolladores pueden cargas sus apcliaciones web.<br>
+<b>Ventajas</b>:<br>
+Ofrece las mismas ventajas de IaaS y ademas<br>
+<b>Agilidad</b>. PaaS es más ágil que IaaS, y no es necesario que los usuarios configuren servidores para ejecutar aplicaciones.<br>
+<b>Modelo basado en el consumo</b>. Los usuarios solo pagan por lo que usan y operan bajo un modelo OpEx.<br>
+<b>Ventajas que ofrece la nube</b>. Los usuarios pueden aprovechar las aptitudes y la experiencia del proveedor de nube para asegurarse de que sus cargas de trabajo sean seguras y tengan alta disponibilidad. Además, los usuarios pueden obtener acceso a más herramientas de desarrollo punteras. Entonces, las podrán aplicar al ciclo de vida de una aplicación.<br>
+<b>Productividad</b>. Los usuarios se pueden centrar únicamente en el desarrollo de aplicaciones, ya que el proveedor de nube lleva a cabo toda la administración de plataformas.<br>
+<b>Desventaja</b><br>
+<b>Limitaciones de la plataforma</b>. Es posible que en las plataformas en la nube haya una serie de limitaciones que pueden afectar al modo en el que una aplicación se ejecuta. Al evaluar qué plataforma PaaS es más adecuada para una carga de trabajo, debe tener en cuenta las limitaciones de esta área.<br><br>
+<b>SaaS</b>, en este modelo el proveedor de servicios en la nube adminstra todos los aspectos dek entorno de la aplicacion, el inquilino solo necesita proporcionar datos a la aplicacion administrada por el proveedor, por ejemplo Office 365.<br>
+<b>Ventajas:</b><br>
+Las mismas ventajas de IaaS y ademas<br>
+<b>Modelo de precio de pago por uso</b>. Los usuarios pagan por el software que usan mediante un modelo de suscripción, que habitualmente es mensual o anual, independientemente de cuánto usen el software.<br>
+<b>Flexibilidad</b>. Los usuarios pueden acceder a los mismos datos de la aplicación desde cualquier lugar.<br>
+<b>Desventaja</b><br>
+<b>Limitaciones de software</br>. Es posible que en las aplicaciones de software haya una serie de limitaciones que pueden afectar al modo en el que los usuarios trabajan.
 
 ><b>¿Qué es la informática sin servidor?</b>
 La informática sin servidor se superpone a PaaS y permite que los desarrolladores creen aplicaciones más rápidamente, ya que elimina la necesidad de administrar la infraestructura.
@@ -69,3 +90,9 @@ IoT: Maneja todos tus dispositivos inteligentes y conectalos
  DevOps
 <br><br>
 Los servicios especificos se encuentran en la carpeta de "Servicios"
+
+# Conceptos Fundamentales de Azure
+> <b>Gastos de capital en comparacion con los gastos operativos</b><br>
+Existen dos tipos diferentes de gastos<br>
+CapEx: Los gastos de capital hacen referencua a la inversion previa de dinero en infraestructura fisica, que se podra reducir a lo largo del tiempo.<br><br>
+OpEx: Los gastos operativos son dinero que se invierte en servicios o productos y se factura al isntante. Este gasto se puede deducir el mismo año que se produce. No hay ningun costo previo, ya que se paga por lo que se usa.
