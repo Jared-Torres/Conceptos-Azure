@@ -48,4 +48,25 @@ Nube privada: Los recursos informáticos son de uso exclusivo de los usuarios de
 Nube hibrida: Este entorno informático combina una nube pública y una nube privada, lo que permite compartir datos y aplicaciones entre ellas.
 
 ## Servicios de Azure
-> 
+> Compute: Te permite escalar las capacidades de tu computo dependiendo la demanda
+<br> 
+Networking: Permite conectar tu nube e infraestructura
+<br>
+Storage: Almacenamiento
+<br>
+Mobile: construye apps y plataformas
+<br>
+Databases
+<br>
+Web
+Ayudan a crear, emplear, manejar web applications
+<br>
+IoT: Maneja todos tus dispositivos inteligentes y conectalos
+ <br>
+ Big Data: Grandes volumenes de datos
+ <br>
+ AI
+ <br>
+ DevOps
+<br><br>
+Los servicios especificos se encuentran en la carpeta de "Servicios"
